@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px;
+
+	/* https://cssgradient.io/gradient-backgrounds/ */
+	background: #c6ffdd;
+	background: linear-gradient( to right, #f7797d, #fbd786, #c6ffdd );
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+embed {
+    height: 1500px;
+    width: 3200px;
+}

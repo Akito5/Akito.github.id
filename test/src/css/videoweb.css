@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px;
+
+	/* https://cssgradient.io/gradient-backgrounds/ */
+	background: #c6ffdd;
+	background: linear-gradient( to right, #f7797d, #fbd786, #c6ffdd );
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+
+	
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 1150px;
+    height: 600px;
+    margin-bottom: 80px;
+}
+.video div {
+    text-align: center;   
+}
+
+.text-video {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: 'Arial Black';
+}
+
+.close{
+    font-size: 50px;
+    height: 150px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.close:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: red;
+    height: 150px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}

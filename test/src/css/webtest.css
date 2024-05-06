@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px;
+
+	/* https://cssgradient.io/gradient-backgrounds/ */
+	background: #c6ffdd;
+	background: linear-gradient( to right, #f7797d, #fbd786, #c6ffdd );
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.buttons { 
+ color: aqua;
+}
+
+.button1{
+    font-size: 50px;
+    height: 250px;
+    width: 700px;
+    margin-right: 100px;
+    margin-top: 150px;
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.button1:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: rgb(2, 172, 2);
+    height: 350px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+.button2{
+    font-size: 50px;
+    height: 250px;
+    width: 700px;
+    margin-right: 100px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.button2:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: rgb(230, 226, 15);
+    height: 350px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+.button3{
+    font-size: 50px;
+    height: 250px;
+    width: 700px;
+    margin-right: 50px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.button3:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 102, 0);
+    height: 350px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+.close{
+    font-size: 50px;
+    height: 150px;
+    width: 500px;
+    margin-right: 50px;
+    margin-left: 925px;
+    margin-top: 450px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.close:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: red;
+    height: 150px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-дизайн и разработка сайтов</title>
+	<link rel="icon" href="../src/icons/icons.ico">
+    <link rel="stylesheet" href="css/web.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="bg-animation"> 
+        <SECtion class="web">
+            <div class="container">
+                <div class="titleweb"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+                        <defs>
+                            <text id="text" x="50%" y="50%" font-family="Voltaire" font-size="100px" font-weight="800" text-anchor="middle" alignment-baseline="middle">
+                                Web-дизайн и разработка сайтов
+                            </text>
+                        </defs>
+                        <filter id="glow">
+                            <feGaussianBlur id="glowBlur" stdDeviation="3.5" result="coloredBlur"></feGaussianBlur>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                            </feMerge>
+                        </filter>
+                        <filter id="shock">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.2" numOctaves="1" seed="2" result="noise" id="noise">
+                  <animate attributeType="XML" attributeName="seed" from="2" to="120" dur="12s" repeatCount="indefinite"></animate>
+                </feTurbulence>
+                            <feMorphology id="morph1" in="SourceGraphic" operator="dilate" radius="10" result="morph1"></feMorphology>
+                            <feMorphology id="morph2" in="morph1" operator="dilate" radius="2" result="morph2"></feMorphology>
+                            <feComposite operator="out" in="morph2" in2="morph1" result="strokeText"></feComposite>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="strokeText" in2="noise" result="displacementMap" color-interpolation-filters="sRGB" scale="10"></feDisplacementMap>
+                            <feGaussianBlur stdDeviation="5" result="coloredBlur"></feGaussianBlur>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="displacementMap"></feMergeNode>
+                            </feMerge>
+                        </filter>
+                  <filter id="shock2">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.2" numOctaves="1" seed="2" result="noise" id="noise">
+                  <animate attributeType="XML" attributeName="seed" from="2" to="120" dur="10s" repeatCount="indefinite"></animate>
+                </feTurbulence>
+                            <feMorphology id="morph3" in="SourceGraphic" operator="dilate" radius="1" result="morph1"></feMorphology>
+                            <feMorphology id="morph4" in="morph1" operator="dilate" radius="1" result="morph2"></feMorphology>
+                            <feComposite operator="out" in="morph2" in2="morph1" result="strokeText"></feComposite>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="strokeText" in2="noise" result="displacementMap" color-interpolation-filters="sRGB" scale="10"></feDisplacementMap>
+                            <feGaussianBlur stdDeviation="5" result="coloredBlur"></feGaussianBlur>
+                            <feMerge>
+                                <feMergeNode in="coloredBlur"></feMergeNode>
+                                <feMergeNode in="displacementMap"></feMergeNode>
+                            </feMerge>
+                        </filter>
+                    <use xlink:href="#text" id="textShock" x="2" y="2" filter="url(#shock)" stroke="0" stroke-width="1" fill="#00FFFF"></use>
+                  <use xlink:href="#text" id="textShock" x="2" y="2" filter="url(#shock2)" stroke="0" stroke-width="1" fill="black"></use>
+                    <use xlink:href="#text" id="textFill" x="0" y="0" fill="white"></use>
+                    <use xlink:href="#text" id="textGlow" x="0" y="0" filter="url(#glow)" stroke="black" stroke-width="0.1" fill="transparent"></use>
+                    </svg>
+                </div>
+                <div class="btnweb">
+                    <div class="btn2">
+                        <button class="video" onclick="location.href = '/src/videoweb.html'">Видеоуроки</button>
+                        <button class="ctrl" onclick="location.href = '/src/webtest.html'">  Самоконтроль </button>
+                    </div>
+                    <div>
+                        <button class="lit" onclick="location.href = '/src/litweb.html'">Литература</button>
+                        <button class="pr"  onclick="location.href = '/src/pr.html'">Презентации</button> 
+                        
+                    </div>
+                </div>
+                <div><button class="close" onclick="location.href = '/src/index.html'">Назад</button></div>
+        
+            </div>
+           </SECtion>
+    </div>
+</body>
+</html>

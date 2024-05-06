@@ -1,0 +1,138 @@
+.container {
+    width: 2500px;
+    margin: 0 auto;
+}
+
+.icons_img {
+    display: inline;
+    height: 250px;
+    width: 250px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bg-animation {
+    height: 1400px;
+    animation: bg-animation 25s ease-in-out infinite;
+    padding: 10px 5px 50px 5px;
+    text-align: center;
+    background-image: url('../img/1675132884_top-fon-com-p-fon-dlya-prezentatsii-antivirus-103.jpg'); /* Фоновая картинка */
+    background-repeat: no-repeat;
+    border:none;
+    margin:0;
+    color: #337AB7;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+}
+ @media (max-width: 1450px) {
+    .bg-animation {
+        padding: 10px 10px;
+        font-size: 26px;
+    }
+}
+@keyframes bg-animation {
+    0% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+    20% {
+        background-size: 150%;
+        background-position: 0 50%;
+    }    
+    40% {
+        background-size: 110%;
+        background-position: 20% 80%;
+    }
+    60% {
+        background-size: 160%;
+        background-position: 60% 10%;
+    }
+    80% {
+        background-size: 120%;
+        background-position: 40% 70%;
+    }    
+    100% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    width: 1800px;
+}
+
+ .btn1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.webb {
+    font-size: 70px;
+    height: 320px;
+    width: 700px;
+    margin-right: 200px;
+    margin-top: 350px;
+    background-color: rgb(4, 160, 250);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgba(11,99,246,1);
+    color:rgb(255, 255, 255);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.webb:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: rgb(115, 255, 0);
+    height: 300px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 40px 50px 0 rgba(11,99,246,1);
+
+}
+
+.mobile {
+    font-size: 70px;
+    height: 320px;
+    width: 700px;
+    margin-top: 350px;
+    background-color: gray;
+    background-color: rgb(4, 160, 250);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgba(11,99,246,1);
+    color:honeydew;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.mobile:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: rgb(115, 255, 0);
+    height: 300px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 40px 50px 0 rgba(11,99,246,1);
+}
+

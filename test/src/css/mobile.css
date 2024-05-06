@@ -1,0 +1,212 @@
+.container {
+    width: 2500px;
+    margin: 0 auto;
+}
+
+.bg-animation {
+    height: 1450px;
+    animation: bg-animation 25s ease-in-out infinite;
+    padding: 10px 5px 50px 5px;
+    text-align: center;
+    background-image: url('../img/1675308050_top-fon-com-p-programmirovanie-fon-dlya-prezentatsii-157.jpg'); /* Фоновая картинка */
+    background-repeat: no-repeat;
+    border:none;
+    margin:0;
+    color: #337AB7;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+}
+ @media (max-width: 1450px) {
+    .bg-animation {
+        padding: 10px 10px;
+        font-size: 26px;
+    }
+}
+@keyframes bg-animation {
+    0% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+    20% {
+        background-size: 150%;
+        background-position: 0 50%;
+    }    
+    40% {
+        background-size: 110%;
+        background-position: 20% 80%;
+    }
+    60% {
+        background-size: 160%;
+        background-position: 60% 10%;
+    }
+    80% {
+        background-size: 120%;
+        background-position: 40% 70%;
+    }    
+    100% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.titleweb{
+    margin-top: 100px;
+    font-size: 125px;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+}
+
+.btnweb{
+    display: flex;
+    justify-content: space-around;
+}
+
+.video{
+    font-size: 50px;
+    height: 250px;
+    width: 1000px;
+    margin-right: 50px;
+    margin-top: 200px;
+    background-color: rgb(250, 4, 217);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(229, 4, 250);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+.video:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    height: 300px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 40px 50px 0 rgb(229, 4, 250);
+    font-size: 100px;
+
+}
+
+.ctrl{
+    font-size: 50px;
+    height: 250px;
+    width: 1000px;
+    margin-right: 50px;
+    margin-top: 200px;
+    background-color: rgb(250, 4, 217);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(229, 4, 250);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+   
+}
+
+.ctrl:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    height: 300px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 40px 50px 0 rgb(229, 4, 250);
+    font-size: 100px;
+
+}
+
+.pr{
+    font-size: 50px;
+    height: 250px;
+    width: 1000px;
+    margin-right: 50px;
+    margin-top: 200px;
+    background-color: rgb(250, 4, 217);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(229, 4, 250);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.pr:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    height: 300px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 40px 50px 0 rgb(229, 4, 250);
+    font-size: 100px;
+
+}
+
+.lit{
+    font-size: 50px;
+    height: 250px;
+    width: 1000px;
+    margin-right: 50px;
+    margin-top: 200px;
+    background-color: rgb(250, 4, 217);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(229, 4, 250);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.lit:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    height: 300px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 40px 50px 0 rgb(229, 4, 250);
+    font-size: 100px;
+}
+
+.close{
+    font-size: 50px;
+    height: 150px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.close:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: red;
+    height: 150px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}

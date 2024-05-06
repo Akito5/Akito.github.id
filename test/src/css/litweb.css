@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px;
+	/* https://cssgradient.io/gradient-backgrounds/ */
+	background: #c6ffdd;
+	background: linear-gradient( to right, #f7797d, #fbd786, #c6ffdd );
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: inline-block;
+    font-size: 3em;
+	font-family: 'Alfa Slab One', cursive;
+    position: relative;
+	background-image: linear-gradient(to right, #000428, #004e92);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+	margin-right: 100px;
+}
+
+.button1{
+    font-size: 50px;
+    height: 125px;
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.button1:hover{
+    font-family: 'Alfa Slab One', cursive;
+    display: inline-block;
+    color: rgb(2, 172, 2);
+    height: 125px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 70px;
+}
+.buttons1 {
+    margin-bottom: 10px;
+}
+
+.close{
+    font-size: 50px;
+    height: 150px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: solid 4px blue;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    color:rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.close:hover{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: red;
+    height: 150px;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 35px 0 rgb(207, 207, 207);
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
